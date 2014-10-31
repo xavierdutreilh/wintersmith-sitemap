@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "url": "http://example.com",
+    "name": "Site Name",
+    "owner": "Site Owner"
+  },
+  "output": "../../tmp/build",
+  "plugins": [
+    "../../index-dev.js"
+  ]
+}

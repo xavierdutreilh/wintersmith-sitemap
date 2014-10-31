@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title=locals.name
+    meta(name='author', content=locals.owner)
+  body
+    header
+      h1=locals.name
+    main
+      h2=page.title
+      !=page.html
+    footer
+      p &copy; #{locals.owner}
