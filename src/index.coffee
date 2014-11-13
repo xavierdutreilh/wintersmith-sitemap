@@ -38,7 +38,7 @@ module.exports = (env, callback) ->
 
   env.registerGenerator 'sitemap', (contents, callback) ->
     tree =
-      sitemap: new Sitemap
+      'sitemap.xml': new Sitemap
     callback null, tree
 
   callback()
