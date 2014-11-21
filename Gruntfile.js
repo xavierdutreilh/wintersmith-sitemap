@@ -11,6 +11,15 @@ module.exports = function(grunt) {
         '<%= nodeunit.tests %>',
       ],
     },
+    jscs: {
+      options: {
+        config: '.jscsrc'
+      },
+      all: [
+        'Gruntfile.js',
+        '<%= nodeunit.tests %>',
+      ]
+    },
     clean: {
       lib: [
         'lib',
@@ -49,6 +58,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'jshint',
+    'jscs',
     'test',
   ]);
 };
