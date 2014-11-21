@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         '<%= nodeunit.tests %>',
-      ]
+      ],
     },
     clean: {
       lib: [
