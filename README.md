@@ -1,6 +1,6 @@
 # wintersmith-sitemap [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-sitemap.svg)](https://travis-ci.org/xavierdutreilh/wintersmith-sitemap)
 
-[Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a sitemap.
+A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a sitemap.xml file
 
 ## Installing
 
