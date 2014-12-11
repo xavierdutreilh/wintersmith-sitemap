@@ -22,6 +22,9 @@
     }
   ],
   "main": "lib/",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "scripts": {
     "test": "grunt test",
     "prepublish": "coffee -o ./lib -b -c ./src"
