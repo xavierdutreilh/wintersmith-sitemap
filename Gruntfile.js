@@ -12,9 +12,6 @@ module.exports = function(grunt) {
       ],
     },
     jscs: {
-      options: {
-        config: '.jscsrc'
-      },
       all: [
         'Gruntfile.js',
         '<%= nodeunit.tests %>',
