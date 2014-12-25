@@ -8,14 +8,8 @@ module.exports = (env, callback) ->
       'sitemap.xml'
 
     getPages: (contents) ->
-      pages = []
-      for filename in Object.keys contents
-        content = contents[filename]
-        if content instanceof env.plugins.MarkdownPage
-          pages.push content
-        else if content instanceof env.ContentTree
-          Array::push.apply pages, @getPages content
-      pages
+      env.helpers.contents.list(contents).filter (content) ->
+        content instanceof env.plugins.MarkdownPage
 
     getView: -> (env, locals, contents, templates, callback) ->
       sitemap =

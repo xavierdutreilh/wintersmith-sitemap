@@ -30,6 +30,7 @@
     "prepublish": "coffee -o ./lib -b -c ./src"
   },
   "dependencies": {
+    "wintersmith-contents": "^0.1.2",
     "xml": "^1.0.0"
   },
   "devDependencies": {
