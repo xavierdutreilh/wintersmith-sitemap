@@ -10,11 +10,12 @@ Install globally or locally using npm
 npm install [-g] wintersmith-sitemap
 ```
 
-and add `wintersmith-sitemap` to your config.json
+and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
 
 ```json
 {
   "plugins": [
+    "wintersmith-contents",
     "wintersmith-sitemap"
   ]
 }
