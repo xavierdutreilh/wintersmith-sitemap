@@ -22,7 +22,7 @@ module.exports = (env, callback) ->
         url.push loc: "#{locals.url}#{page.url}"
         if page.metadata?
           if page.metadata.date?
-            url.push lastmod: page.metadata.date.toISOString()
+            url.push lastmod: page.date.toISOString()
           if page.metadata.changefreq?
             url.push changefreq: page.metadata.changefreq
           if page.metadata.priority?
