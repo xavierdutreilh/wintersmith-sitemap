@@ -21,6 +21,31 @@ and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
 }
 ```
 
+## Using
+
+`wintersmith-sitemap` extracts all Markdown pages from the content tree and lists them into the sitemap. By default, the sitemap only contains the location of all pages. If you need to set up their last modification date, their change frequency or their priority, you may want to define them into their metadata:
+
+```markdown
+---
+title: Hello, world!
+date: 2014-10-31 23:59:59
+changefreq: weekly
+priority: 0.8
+template: entry.jade
+---
+```
+
+In addition, you may want to exclude a page from the sitemap by adding `noindex: true` to its metadata:
+
+```markdown
+---
+title: Hello, world!
+date: 2014-10-31 23:59:59
+template: entry.jade
+noindex: true
+---
+```
+
 ## Running tests
 
 ```
