@@ -21,6 +21,16 @@ and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
 }
 ```
 
+and define the `url` property in the `locals` section
+
+```json
+{
+  "locals": {
+    "url": "http://example.com"
+  }
+}
+```
+
 ## Using
 
 `wintersmith-sitemap` extracts all Markdown pages from the content tree and lists them into the sitemap. By default, the sitemap only contains the location of all pages. If you need to set up their last modification date, their change frequency or their priority, you may want to define them into their metadata:
