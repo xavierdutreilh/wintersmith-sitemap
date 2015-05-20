@@ -7,7 +7,7 @@ A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a s
 Install globally or locally using npm
 
 ```
-npm install [-g] wintersmith-sitemap
+npm install [-g] wintersmith-sitemap wintersmith-contents
 ```
 
 and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
