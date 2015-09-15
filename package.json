@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/xavierdutreilh/wintersmith-sitemap/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/xavierdutreilh/wintersmith-sitemap/blob/master/LICENSE.txt"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/",
   "engines": {
     "node": ">= 0.8.0"
