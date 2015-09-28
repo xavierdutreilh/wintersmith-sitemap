@@ -3,7 +3,7 @@
 var grunt = require('grunt');
 
 exports.sitemap = {
-  build: function(test) {
+  'build': function(test) {
     var actual = grunt.file.read('tmp/build/sitemap.xml');
     var expected = grunt.file.read('test/expected/sitemap.xml');
 
