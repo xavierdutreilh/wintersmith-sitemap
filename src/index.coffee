@@ -30,8 +30,6 @@ module.exports = (env, callback) ->
       callback null, new Buffer xml sitemap, declaration: true
 
   env.registerGenerator 'sitemap', (contents, callback) ->
-    tree =
-      'sitemap.xml': new Sitemap
-    callback null, tree
+    callback null, 'sitemap.xml': new Sitemap
 
   callback()
