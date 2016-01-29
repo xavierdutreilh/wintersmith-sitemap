@@ -33,11 +33,11 @@
     "jscs": "^2.3.0",
     "jshint": "^2.8.0",
     "nodeunit": "^0.9.1",
-    "wintersmith": "2.x",
+    "wintersmith": "^2.0.0",
     "wintersmith-contents": "^0.1.2"
   },
   "peerDependencies": {
-    "wintersmith": "2.x",
+    "wintersmith": "^2.0.0",
     "wintersmith-contents": "^0.1.2"
   },
   "keywords": [
