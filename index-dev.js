@@ -4,4 +4,4 @@ var path = require('path');
 
 require('coffee-script/register');
 
-module.exports = require(path.join(__dirname, 'src'));
+module.exports = require(path.resolve('src'));
