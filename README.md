@@ -33,7 +33,7 @@ and define the `url` property in the `locals` section
 
 ## Using
 
-`wintersmith-sitemap` extracts all Markdown pages from the content tree and lists them into the sitemap. By default, the sitemap only contains the location of all pages. If you need to set up their last modification date, their change frequency or their priority, you may want to define them into their metadata:
+`wintersmith-sitemap` extracts all Markdown pages from the content tree and lists them into the sitemap. By default, the sitemap only contains the location of all pages. If you need to include more information like the last modification date, the change frequency, or the priority, you need to define this information in the metadata:
 
 ```markdown
 ---
@@ -45,7 +45,7 @@ template: entry.jade
 ---
 ```
 
-In addition, you may want to exclude a page from the sitemap by adding `noindex: true` to its metadata:
+If you want to exclude a page from the sitemap, you need to define `noindex: true` in the metadata:
 
 ```markdown
 ---
