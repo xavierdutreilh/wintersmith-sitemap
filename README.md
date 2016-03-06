@@ -1,16 +1,16 @@
 # wintersmith-sitemap [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-sitemap.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-sitemap)
 
-A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a sitemap.xml file
+> A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a sitemap.xml file
 
-## Installing
+## Installation
 
-Install globally or locally using npm
+Install globally or locally using npm:
 
 ```
 npm install [-g] wintersmith-sitemap wintersmith-contents
 ```
 
-and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
+Add `wintersmith-sitemap` and `wintersmith-contents` to your `config.json`:
 
 ```json
 {
@@ -21,7 +21,7 @@ and add `wintersmith-sitemap` and `wintersmith-contents` to your config.json
 }
 ```
 
-and define the `url` property in the `locals` section
+Define the `url` property in the `locals` property:
 
 ```json
 {
@@ -31,7 +31,7 @@ and define the `url` property in the `locals` section
 }
 ```
 
-## Using
+## Usage
 
 `wintersmith-sitemap` extracts all Markdown pages from the content tree and lists them into the sitemap. By default, the sitemap only contains the location of all pages. If you need to include more information like the last modification date, the change frequency, or the priority, you need to define this information in the metadata:
 
@@ -56,9 +56,6 @@ noindex: true
 ---
 ```
 
-## Running tests
+## License
 
-```
-npm install
-npm test
-```
+`wintersmith-sitemap` is released under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
