@@ -43,6 +43,7 @@
   "keywords": [
     "sitemap",
     "wintersmith",
-    "wintersmith-plugin"
+    "wintersmith-plugin",
+    "xml"
   ]
 }
