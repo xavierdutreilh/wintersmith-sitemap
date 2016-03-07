@@ -6,7 +6,7 @@
 
 Install globally or locally using npm:
 
-```
+```bash
 npm install [-g] wintersmith-sitemap wintersmith-contents
 ```
 
