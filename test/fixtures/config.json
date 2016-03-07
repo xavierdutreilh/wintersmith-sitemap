@@ -7,6 +7,6 @@
   "output": "../../tmp",
   "plugins": [
     "wintersmith-contents",
-    "../../index-dev.js"
+    "../../lib/index.js"
   ]
 }

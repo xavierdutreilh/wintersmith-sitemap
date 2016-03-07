@@ -1,7 +1,6 @@
 {
   "preset": "google",
   "excludeFiles": [
-    "lib/**/*",
     "tmp/**/*"
   ]
 }

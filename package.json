@@ -21,15 +21,10 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "prepublish": "coffee -o lib -b -c src",
     "pretest": "jshint . && jscs . && wintersmith build -C test/fixtures",
     "test": "nodeunit"
   },
-  "dependencies": {
-    "xml": "^1.0.0"
-  },
   "devDependencies": {
-    "coffee-script": ">1.5",
     "jscs": "^2.3.0",
     "jshint": "^2.8.0",
     "nodeunit": "^0.9.1",
