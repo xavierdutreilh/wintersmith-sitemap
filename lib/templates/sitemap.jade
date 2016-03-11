@@ -1,11 +1,11 @@
 doctype xml
 urlset(xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-  for page in pages
+  for entry in entries
     url
-      loc #{locals.url}#{page.url}
-      if page.metadata.date
-        lastmod=page.date.toISOString()
-      if page.metadata.changefreq
-        changefreq=page.metadata.changefreq
-      if page.metadata.priority
-        priority=page.metadata.priority
+      loc #{locals.url}#{entry.url}
+      if entry.metadata.date
+        lastmod=entry.date.toISOString()
+      if entry.metadata.changefreq
+        changefreq=entry.metadata.changefreq
+      if entry.metadata.priority
+        priority=entry.metadata.priority
