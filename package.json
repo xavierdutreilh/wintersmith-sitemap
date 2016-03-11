@@ -25,7 +25,8 @@
     "test": "nodeunit"
   },
   "dependencies": {
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "lodash": "^4.6.1"
   },
   "devDependencies": {
     "jscs": "^2.3.0",
