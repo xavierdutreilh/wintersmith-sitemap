@@ -33,7 +33,7 @@
     "jshint": "^2.8.0",
     "nodeunit": "^0.9.1",
     "wintersmith": "^2.0.0",
-    "wintersmith-contents": "^0.3.0"
+    "wintersmith-contents": "^0.4.0"
   },
   "peerDependencies": {
     "wintersmith": "^2.0.0",
