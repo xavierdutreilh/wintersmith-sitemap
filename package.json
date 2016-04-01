@@ -37,7 +37,7 @@
   },
   "peerDependencies": {
     "wintersmith": "^2.0.0",
-    "wintersmith-contents": "^0.3.0"
+    "wintersmith-contents": "^0.4.0"
   },
   "keywords": [
     "sitemap",
