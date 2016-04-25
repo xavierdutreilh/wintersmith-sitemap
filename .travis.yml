@@ -15,5 +15,7 @@ node_js:
   - 5.7
   - 5.8
   - 5.9
+  - 5.10
+  - 5.11
 before_install:
   - npm install -g npm@latest
