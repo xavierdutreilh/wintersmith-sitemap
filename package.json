@@ -21,7 +21,7 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "pretest": "eslint . && wintersmith build -C test/fixtures",
+    "pretest": "eslint . && wintersmith build -C examples/basic",
     "test": "nodeunit"
   },
   "dependencies": {
