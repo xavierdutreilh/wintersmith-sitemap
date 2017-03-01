@@ -21,7 +21,7 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "pretest": "eslint . && wintersmith build -C examples/basic",
+    "pretest": "standard && wintersmith build -C examples/basic",
     "test": "nodeunit"
   },
   "dependencies": {
@@ -29,9 +29,8 @@
     "lodash": "^4.6.1"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-config-xavierdutreilh": "^0.2.0",
     "nodeunit": "^0.11.0",
+    "standard": "^9.0.0",
     "wintersmith": "^2.0.0",
     "wintersmith-contents": "^0.6.0"
   },
