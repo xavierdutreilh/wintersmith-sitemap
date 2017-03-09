@@ -5,7 +5,7 @@ function read (filename) {
 }
 
 exports.sitemap = {
-  'build': (test) => {
+  build(test) {
     const actual = read(`${__dirname}/../tmp/sitemap.xml`)
     const expected = read(`${__dirname}/expected/sitemap.xml`)
 
