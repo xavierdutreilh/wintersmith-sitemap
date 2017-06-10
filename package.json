@@ -25,18 +25,14 @@
     "test": "nodeunit"
   },
   "dependencies": {
-    "jade": "^1.11.0",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "pug": "^2.0.0-rc.2",
+    "wintersmith": "^2.0.0",
+    "wintersmith-contents": "^0.7.0"
   },
   "devDependencies": {
     "nodeunit": "^0.11.1",
-    "standard": "^10.0.2",
-    "wintersmith": "^2.0.0",
-    "wintersmith-contents": "^0.6.0"
-  },
-  "peerDependencies": {
-    "wintersmith": "^2.0.0",
-    "wintersmith-contents": "^0.6.0"
+    "standard": "^10.0.2"
   },
   "keywords": [
     "sitemap",
