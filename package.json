@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "lodash": "^4.6.1",
-    "pug": "^2.0.0-rc.2",
-    "wintersmith": "^2.0.0",
+    "pug": "^2.0.0-rc.4",
+    "wintersmith": "^2.4.1",
     "wintersmith-contents": "^0.7.0"
   },
   "devDependencies": {
     "nodeunit": "^0.11.1",
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   },
   "keywords": [
     "sitemap",
