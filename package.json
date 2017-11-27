@@ -31,7 +31,7 @@
     "wintersmith-contents": "^0.7.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.11.1",
+    "nodeunit": "^0.11.2",
     "standard": "^10.0.3"
   },
   "keywords": [
