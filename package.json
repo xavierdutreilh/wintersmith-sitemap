@@ -25,7 +25,7 @@
     "test": "nodeunit"
   },
   "dependencies": {
-    "lodash": "^4.6.1",
+    "lodash": "^4.17.4",
     "pug": "^2.0.0-rc.4",
     "wintersmith": "^2.4.1",
     "wintersmith-contents": "^0.7.0"
