@@ -1,7 +1,7 @@
 {
   "name": "wintersmith-sitemap",
   "description": "A Wintersmith plugin to generate a sitemap.xml file",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/xavierdutreilh/wintersmith-sitemap",
   "author": {
     "name": "Xavier Dutreilh",
@@ -28,7 +28,7 @@
     "lodash": "^4.17.4",
     "pug": "^2.0.0-rc.4",
     "wintersmith": "^2.4.1",
-    "wintersmith-contents": "^0.7.0"
+    "wintersmith-contents": "^1.0.0"
   },
   "devDependencies": {
     "nodeunit": "^0.11.2",
